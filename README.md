@@ -1,6 +1,6 @@
 # snippet_docker
 
-source : 
+## source 
 * https://docs.docker.com/engine/install/centos/
 
 ## Installation docker engine
@@ -13,3 +13,7 @@ source :
 ## Démarrage du process
 * sudo systemctl start docker
 * sudo systemctl status docker
+
+## Monitoring
+* sudo docker images
+* sudo docker ps
